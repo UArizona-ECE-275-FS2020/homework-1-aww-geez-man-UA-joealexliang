@@ -36,9 +36,8 @@ namespace interdimensional {
 
 namespace C137 {
 
-	void OutputC137(int i);
-	void PrintAwwGeezMan(int start, int stop);
-	void PrintAwwGeezMan(int start, int stop, int step);
+	void Morty(int start, int stop);
+	void Morty(int start, int stop, int step);
 
 }
 
@@ -49,8 +48,7 @@ namespace C137 {
 
 namespace Z286 {
 	
-	void OutputZ286(int i);
-	void PrintAwwGeezMan(int start, int stop);
-	void PrintAwwGeezMan(int start, int stop, int step);
+	void Morty(int start, int stop);
+	void Morty(int start, int stop, int step);
 
 }
