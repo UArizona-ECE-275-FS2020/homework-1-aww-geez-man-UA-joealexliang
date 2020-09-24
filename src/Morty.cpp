@@ -32,18 +32,12 @@ namespace C137 {
 	}
 
 	void PrintAwwGeezMan(int start, int stop) {
-		std::cout << "Command arguments: " << start << " " << stop << " C137\n";
-		std::cout << "Solution:\n";
-		std::cout << "Morty C137 says:\n";
 		for (int i = start; i <= stop; i++) {
 			C137::OutputC137(i);
 		}
 	}
 
 	void PrintAwwGeezMan(int start, int stop, int step) {
-		std::cout << "Command arguments: " << start << " " << stop << " " << step << " C137\n";
-		std::cout << "Solution:\n";
-		std::cout << "Morty C137 says:\n";
 		for (int i = start; i <= stop; i = i + step) {
 			C137::OutputC137(i);
 		}
@@ -73,18 +67,12 @@ namespace Z286 {
 	}
 
 	void PrintAwwGeezMan(int start, int stop) {
-		std::cout << "Command arguments: " << start << " " << stop << " Z286\n";
-		std::cout << "Solution:\n";
-		std::cout << "Morty Z286 says:\n";
 		for (int i = start; i <= stop; i++) {
 			Z286::OutputZ286(i);
 		}
 	}
 
 	void PrintAwwGeezMan(int start, int stop, int step) {
-		std::cout << "Command arguments: " << start << " " << stop << " " << step << " Z286\n";
-		std::cout << "Solution:\n";
-		std::cout << "Morty Z286 says:\n";
 		for (int i = start; i <= stop; i = i + step) {
 			Z286::OutputZ286(i);
 		}
