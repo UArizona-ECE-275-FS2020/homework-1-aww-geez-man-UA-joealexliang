@@ -53,6 +53,7 @@ int main(int ac, char** av) {
 	// function
 
 	if (dimension.compare("C137") == 0) {
+		std::cout << "Morty C137 says:\n";
 		if (ac == 5) {
 			C137::PrintAwwGeezMan(start, stop, step);
 		}
@@ -62,6 +63,7 @@ int main(int ac, char** av) {
 	}
 
 	else if (dimension.compare("Z286") == 0) {
+		std::cout << "Morty Z286 says:\n";
 		if (ac == 5) {
 			Z286::PrintAwwGeezMan(start, stop, step);
 		}
