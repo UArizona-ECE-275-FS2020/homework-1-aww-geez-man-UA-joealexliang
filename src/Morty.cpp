@@ -16,7 +16,7 @@
 
 namespace C137 {
 
-	void PrintAwwGeezMan(int start, int stop) {
+	void Morty(int start, int stop) {
 		std::cout << "Morty C137 says:\n";
 		for (int i = start; i <= stop; i++) {
 			if (i % 15 == 0) {
@@ -34,7 +34,7 @@ namespace C137 {
 		}
 	}
 
-	void PrintAwwGeezMan(int start, int stop, int step) {
+	void Morty(int start, int stop, int step) {
 		std::cout << "Morty C137 says:\n";
 		for (int i = start; i <= stop; i = i + step) {
 			if (i % 15 == 0) {
@@ -60,7 +60,7 @@ namespace C137 {
 
 namespace Z286 {
 
-	void PrintAwwGeezMan(int start, int stop) {
+	void Morty(int start, int stop) {
 		std::cout << "Morty Z286 says:\n";
 		for (int i = start; i <= stop; i++) {
 			if (i % 15 == 0) {
@@ -78,7 +78,7 @@ namespace Z286 {
 		}
 	}
 
-	void PrintAwwGeezMan(int start, int stop, int step) {
+	void Morty(int start, int stop, int step) {
 		std::cout << "Morty Z286 says:\n";
 		for (int i = start; i <= stop; i = i + step) {
 			if (i % 15 == 0) {
