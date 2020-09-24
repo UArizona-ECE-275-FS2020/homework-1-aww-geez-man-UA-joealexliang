@@ -54,19 +54,19 @@ int main(int ac, char** av) {
 
 	if (dimension.compare("C137") == 0) {
 		if (ac == 5) {
-			C137::PrintAwwGeezMan(start, stop, step);
+			C137::Morty(start, stop, step);
 		}
 		else if (ac == 4) {
-			C137::PrintAwwGeezMan(start, stop);
+			C137::Morty(start, stop);
 		}
 	}
 
 	else if (dimension.compare("Z286") == 0) {
 		if (ac == 5) {
-			Z286::PrintAwwGeezMan(start, stop, step);
+			Z286::Morty(start, stop, step);
 		}
 		else if (ac == 4) {
-			Z286::PrintAwwGeezMan(start, stop);
+			Z286::Morty(start, stop);
 		}
 	}
 
